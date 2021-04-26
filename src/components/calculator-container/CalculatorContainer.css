@@ -1,0 +1,34 @@
+
+.calculator-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5%;
+    padding: 0.2rem 2rem;
+    background-color: #FFFFFF00;
+    transition: background-color 1s;
+}
+
+.calculator-container:hover {
+    background-color: #FFFFFF0F;
+}
+
+.display {
+    background-color: #00008b7F;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 20vw;
+    color: white;
+    padding: 1rem 3rem;
+    width: 80%;
+    margin: 0.5rem;
+    font-size: 2.3rem;
+
+}
+
+.display-content {
+    margin: 0 0.2rem;
+}
