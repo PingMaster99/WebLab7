@@ -1,3 +1,3 @@
-import ButtonGrid from "./ButtonGrid"
+import ButtonGrid from './ButtonGrid'
 
 export default ButtonGrid

@@ -1,3 +1,3 @@
-import CalculatorButton from "./CalculatorButton"
+import CalculatorButton from './CalculatorButton'
 
 export default CalculatorButton

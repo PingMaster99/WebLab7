@@ -1,11 +1,10 @@
 import React from 'react'
 import { render } from '@testing-library/react'
-import ButtonGrid from "./ButtonGrid";
-import {describe, test} from "@jest/globals";
-
+import { describe, test } from '@jest/globals'
+import ButtonGrid from './ButtonGrid'
 
 describe('Button grid tests', () => {
-    test('grid renders', () => {
-        render(<ButtonGrid />)
-    })
+  test('grid renders', () => {
+    render(<ButtonGrid />)
+  })
 })
